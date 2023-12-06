@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.resume {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.yellow-section{
+    display:flex;
+}
+
+.yellow{
+    flex:0.2;
+}
+
+#email{
+    flex:1;
+    padding:20px;
+}
+
+.left-side {
+    flex: 0.7;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.right-side {
+    flex: 2;
+}
+
+.name-title {
+    text-align: left;
+    background-color: hsl(47.91deg 99.22% 50%);
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.image {
+    max-width: 100%;
+    height:auto;
+    
+}
+
+.profile-image{
+    vertical-align: top;
+    margin:-9px;
+    margin-top: -19px;
+}
+
+.about-me h2, .projects h2, .software-skills h2,.about-me p,.software-skills h6 ,.list{
+    margin-top: 25px;
+    padding-left: 70px;
+}
+
+.name-title h1, .name-title p {
+    margin-bottom: 0; 
+    padding-left: 20px;
+}
+
+
+.name-title {
+    margin-bottom: -2px; 
+}
+
+.top-right{
+    padding-top: 40px;
+}
+
+hr {
+    border-color: hsl(47.91deg 99.22% 50%);
+}
+
+.right-side hr {
+    width: 75%;
+    border-color: black;
+}
+
+#email ,#phone, #website{
+    background-color: gray;
+}
+
+.yellow{
+    background-color: hsl(47.91deg 99.22% 50%);
+}
+
+.contact-details{
+    margin-top: 8px;
+}
+
+.project-1 {
+    display:flex;
+}
+
+.date-class{
+    flex:0.5;
+    text-align: center;
+}
+
+.project-description {
+    flex:1;
+}
+
+.skill{
+   display: flex;
+}
+
+.left-skill{
+    flex: 0.5;
+    
+}
+
+.right-skill{
+    flex:1;
+}
+
+.left-skill p{
+    text-align: center;
+}
+
+.right-skill p{
+    text-align: center;
+}
+
+.skills
+{
+    margin-top: 35px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.skillitems h4
+{
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.second{
+    margin-left: 55px;
+}
+
+.progressbar
+{
+    margin-top: 6px;
+    height: 6px;
+    border-radius: 2px;
+    width: 200px;
+    background-color: gray;
+}
+
+.progress
+{
+    height: 100%;
+    width: 75%;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.fade-in
+{
+    animation: fadeIn 3s;
+}
+
+.educationright h2{
+
+    margin-left: 69px;
+}
+
+.achievements{
+
+        margin-top: 41px;
+}
